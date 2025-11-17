@@ -3,7 +3,7 @@ This repository contains R code that can be used to reproduce the figures and an
 
 Every script has been named according to the following template:
 
-[Sec#]_[Description]_[Fig#].R
+[Sec#]\_[Description]\_[Fig#].R
 
 where
 
