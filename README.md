@@ -1,4 +1,5 @@
-# PD_copula_paper
+# READ ME
+
 This repository contains R code that can be used to reproduce the figures and analysis in Pearse, A.R. &amp; Bondell, H. (2025). Power-divergence copulas: A new class of Archimedean copulas, with an insurance application. arXiv:2510.06177
 
 Every script has been named according to the following template:
