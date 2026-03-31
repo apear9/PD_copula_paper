@@ -119,5 +119,5 @@ sims_plot <- ggplot(data = df_all, aes(x = uu, y = vv)) +
   coord_equal() +
   theme_bw() +
   labs(x = expression(u[1]), y = expression(u[2])) +
-  theme(text = element_text(size = 20))
+  theme(text = element_text(size = 15), strip.text = element_text(size=25))
 sims_plot

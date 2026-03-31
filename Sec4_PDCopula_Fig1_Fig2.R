@@ -67,7 +67,7 @@ copula_plot <- ggplot() +
   facet_wrap(~ factor(Lambda, levels = c("lambda==-sqrt(2)", "lambda==sqrt(2)"), ordered = T), labeller = label_parsed, nrow = 1) +
   coord_equal() +
   labs(fill = expression(C[lambda](u[1],u[2])), x = expression(u[1]), y = expression(u[2])) +
-  theme(text = element_text(size = 15))
+  theme(text = element_text(size = 15), strip.text = element_text(size=22))
 density_plot <- ggplot() +
   geom_raster(data = dfd_long, aes(x = u, y = v, fill = Density^0.25)) +
   geom_contour(data = dfd_long, aes(x = u, y = v, z = Density^0.25), breaks = seq(0, 3, 0.25), col = 'black') +
@@ -75,7 +75,7 @@ density_plot <- ggplot() +
   facet_wrap(~ factor(Lambda, levels = c("lambda==-sqrt(2)", "lambda==sqrt(2)"), ordered = T), labeller = label_parsed, nrow = 1) +
   coord_equal() +
   labs(fill = expression(bgroup("(", over(partialdiff^2*C[lambda], partialdiff*u[1]*partialdiff*u[2]), ")")^over(1,4)), x = expression(u[1]), y = expression(u[2])) +
-  theme(text = element_text(size = 15))
+  theme(text = element_text(size = 15), strip.text = element_text(size=22))
 
 copula_plot
 density_plot
