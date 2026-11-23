@@ -1,3 +1,6 @@
+# This script is required for the analysis of the DJIA and S&P500 data
+# presented in Section 5 of the main text.
+
 # Functions needed to evaluate PD copula, simulate from it, etc.
 phi <- function(u, lambda){
   1/(lambda * (lambda + 1)) * (u^(lambda + 1) - u + lambda * (1 - u))
