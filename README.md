@@ -2,7 +2,7 @@
 
 This repository contains R code that can be used to reproduce the figures and analysis in Pearse, A.R. &amp; Bondell, H. (In Press). Power-divergence copulas: A new class of Archimedean copulas. *Statistica Sinica*. doi: 10.5705/ss.202026.0139
 
-The subfolders in this repository correspond to version 1 (V1) and version 2 (V2) of the paper, as shown on arXiv.
+The subfolders in this repository correspond to version 1 (V1) and version 2 (V2) of the paper. V1 is for the first arxiv version posted in October, 2025. V2 relates to the accepted/published version named above.
 
 Every script has been named according to the following template:
 
